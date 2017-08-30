@@ -2,12 +2,12 @@
 
 qm WebSocket 是整合Gorilla WebSocket的一个集成，方便快速开发websocket服务
 
-### Installation
+### 安装
 
     go get github.com/taozhipeng1990/websocket
 
 
-### Documentation
+### 使用说明
 	
 	server := websocket.Server{}//相关于实例化一个Websocket服务端的类
 	server.Create("0.0.0.0", 1234, "/echo",5*60)//创建websocket 第4个参数是心跳检测时间间隔
