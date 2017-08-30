@@ -2,6 +2,10 @@
 
 qm WebSocket 是整合Gorilla WebSocket的一个集成，方便快速开发websocket服务
 
+### Installation
+
+    go get github.com/taozhipeng1990/websocket
+
 
 ### Documentation
 	
